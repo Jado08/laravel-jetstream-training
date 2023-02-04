@@ -24,7 +24,7 @@
                     class="mt-1 block w-full"
                     autocomplete="description"
                 />
-                <InputError :message="form.errors.description" class="mt-2" />
+                <InputError :message="$attrs.errors.description" class="mt-2" />
             </div>
 
             <!-- Status -->
@@ -37,7 +37,7 @@
                     class="mt-1 block w-full"
                     autocomplete="status"
                 />
-                <InputError :message="form.errors.status" class="mt-2" />
+                <InputError :message="$attrs.errors.status" class="mt-2" />
             </div>
 
             <!-- Assignee -->
@@ -50,7 +50,7 @@
                     class="mt-1 block w-full"
                     autocomplete="assignee"
                 />
-                <InputError :message="form.errors.assignee" class="mt-2" />
+                <InputError :message="$attrs.errors.assignee" class="mt-2" />
             </div>
             
         </template>
